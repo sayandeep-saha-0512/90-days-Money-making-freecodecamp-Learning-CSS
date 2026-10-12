@@ -1,16 +1,24 @@
- a {
-    text-decoration: none;
-    color: #000000;
- }
+body{
+    font-size: 2rem;
+}
 
- a:visited {
-    color: blue;
+ul {
+    list-style-type: square;
+    text-align: center;
+    list-style: inside;
+}
+
+ol {
+    list-style:inside;
+    list-style-type: lower-alpha;
+    text-align: center;
+}
+ul li:nth-child(even){
+    color: red;
+}
+
+ ul ::marker {
+    color: #279536c2;
+    font-family: fantasy;
+    content: "only $5 was need>>";
  }
- 
- 
- a:hover, a:focus {
- color: skyblue;
-}
-a:active {
-color: red;
-}
