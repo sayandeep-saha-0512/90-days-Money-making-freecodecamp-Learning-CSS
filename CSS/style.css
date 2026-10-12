@@ -1,27 +1,16 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+ a {
+    text-decoration: none;
+    color: #000000;
+ }
 
-body {
-    padding: 10%;
+ a:visited {
+    color: blue;
+ }
+ 
+ 
+ a:hover, a:focus {
+ color: skyblue;
 }
-
-h1 {
-    padding: 0.25rem;
-    margin: 0.5rem;
-}
-p {
-    text-size-adjust: 16px;
-    text-transform: capitalize;
-}
-
-.From {
-    padding: 0.5rem;
-    margin: 2rem;
-}
-
-input, button {
-    margin: 5px;
+a:active {
+color: red;
 }
