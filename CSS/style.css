@@ -4,34 +4,34 @@
     box-sizing: border-box;
 }
 
-body {
-min-height: 100vh;
+.container {
+    font-size: 1.5rem;
+    border: 3px dashed red;
+    outline: 5px solid magenta;
+    outline-offset: 0.5rem;
+    padding: 2rem;
+    margin: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
 }
 
-header {
-    width: 50%;
+div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    flex-wrap: wrap;
 }
 
-h1 {
-    border: 2px dashed red;
-    width: 50%;
-    font-size: 3rem;
-    padding: 0.5em;
+.Circle {
+    background-color:aqua;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    padding: auto;
+    border-radius: 50%;
 }
-
-main {
-    width: 50%;
-    background-color: skyblue;
-    font-size: 2rem;
-
-}
-
-main {
-    font-size: 2rem;
-}
-
-p {
-    font-size: 2rem;
-    width: 40ch;
-}
-
